@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class Peminjaman extends Model
 {
+    protected $table = 'peminjamans';
     protected $fillable = [
         'alat_berat_id',
         'user_id',
@@ -20,6 +21,8 @@ class Peminjaman extends Model
         'total_harga',
         'jumlah_dp',
         'jumlah_cicilan',
+        'alamat_pengiriman',
+        'catatan_peminjam',
         'status',
         'approved_by',
     ];

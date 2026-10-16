@@ -13,7 +13,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Builder;
 
 
-#[Fillable(['name', 'email', 'email_verified_at', 'password', 'role'])]
+#[Fillable(['name', 'email', 'email_verified_at', 'password', 'role', 'no_telp', 'alamat'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
