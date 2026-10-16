@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f2c16db610cfe521a9bee4e7a664087",
+    "content-hash": "8f70c5fc4b64e48854e2e5bd5dd44561",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -8502,6 +8502,56 @@
                 }
             ],
             "time": "2026-04-26T05:33:54+00:00"
+        },
+        {
+            "name": "wezlo/filament-grid-list",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mustafakhaleddev/filament-grid-list.git",
+                "reference": "bc85b3e23cbcb77f0975bdbc507bddae05a70fb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mustafakhaleddev/filament-grid-list/zipball/bc85b3e23cbcb77f0975bdbc507bddae05a70fb1",
+                "reference": "bc85b3e23cbcb77f0975bdbc507bddae05a70fb1",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0 || ^5.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wezlo\\FilamentGridList\\FilamentGridListServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wezlo\\FilamentGridList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Configurable grid/card layout that replaces the default Filament list table",
+            "keywords": [
+                "cards",
+                "filament",
+                "grid",
+                "laravel",
+                "list"
+            ],
+            "support": {
+                "issues": "https://github.com/mustafakhaleddev/filament-grid-list/issues",
+                "source": "https://github.com/mustafakhaleddev/filament-grid-list/tree/1.0.0"
+            },
+            "time": "2026-04-12T21:04:32+00:00"
         }
     ],
     "packages-dev": [
@@ -10832,12 +10882,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.3"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }

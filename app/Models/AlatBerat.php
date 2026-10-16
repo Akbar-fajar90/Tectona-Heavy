@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 
 #[Fillable(['nama_alat',
+        'foto',
         'kategori_id',
         'kode_alat',
         'merk',
